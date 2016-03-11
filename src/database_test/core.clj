@@ -17,7 +17,9 @@
   })
 )
 
-
+(defn create-a-table [tablename] 
+  (execute! db [(str "CREATE TABLE " tablename "(firstname varchar(255), lastname varchar(255))")])
+)
 
 
 
