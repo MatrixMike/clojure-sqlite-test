@@ -22,13 +22,6 @@
   (execute! db [(str "CREATE TABLE " tablename "(firstname varchar(255), lastname varchar(255))")])
 )
 
-
-
-
-
-
-
-
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
