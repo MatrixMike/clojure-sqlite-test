@@ -1,4 +1,5 @@
 (ns database-test.core
+    (:gen-class)
   (:require [clojure.java.jdbc :refer :all]))
 
 
